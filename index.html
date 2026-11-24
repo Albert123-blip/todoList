@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="todo-container">
+    <header class="myHeader">
+    <div class="logo">
+        <span class="mark-logo">✓</span>
+    </div>
+
+    <h1>To-Do<span class="list-deco"> List</span></h1>
+
+    <p class="desc">Plan. Track. Get Things<span class="done-deco"> done.</span></p>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        ☾
+    </button>
+</header>
+        
+        <form class="task-form" id="task-form">
+            <input type="text" id="input-task" placeholder="Add a new task..." autocomplete="off">
+            <button id="add-btn" type="submit">Add</button>
+        </form>
+
+         <div class="tab-container">
+            <div class="tabs">
+                <button class="tab-active" data-filter="all">All</button>
+                <button class="tab" data-filter="active">Active</button>
+                <button class="tab" data-filter="completed">Completed</button>
+            </div>
+
+            <button id="clear-all" class="clear-all">
+                🗑 Clear All
+            </button>
+        </div>
+        </div>
+
+    <ul id="task-list"></ul>
+
+    </main>
+
+
+
+   <script src="index.js"></script>
+</body>
+</html>
