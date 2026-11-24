@@ -1,22 +1,20 @@
-# ShopEasy
+# To-Do List
 
-A responsive e-commerce store front built with HTML, CSS and vanilla JavaScript.
+A simple, responsive to-do list app built with HTML, CSS and vanilla JavaScript.
 
 ## Features
 
-- Product grid rendered from a JavaScript array
-- Live search with a "product not available" state
-- Slide-out cart drawer with + / − quantity controls
-- Add-to-cart feedback: button flash, badge animation and toast message
-- Cart saved in the browser with localStorage
-- Image lightbox preview
-- Responsive layout
+- Add, complete and delete tasks
+- Filter by All, Active or Completed
+- Clear all tasks with a confirmation
+- Dark and light theme toggle
+- Tasks and theme saved in the browser with localStorage
 
 ## Built with
 
-HTML5, CSS3 (grid, flexbox), JavaScript (no libraries)
+HTML5, CSS3, JavaScript (no libraries)
 
 ## Run it locally
 
-1. `git clone https://github.com/Albert123-blip/shopEasy.git`
+1. `git clone https://github.com/Albert123-blip/todoList.git`
 2. Open `index.html` in your browser.
